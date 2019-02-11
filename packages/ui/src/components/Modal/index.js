@@ -57,10 +57,10 @@ export default class Modal extends Component {
   state = { modalPosition: {}, arrowPosition: { dir: "TOP" } };
 
   static propTypes = {
-    children: PropTypes.Object,
+    children: PropTypes.object,
     closeModal: PropTypes.func,
-    editorWrapper: PropTypes.Object,
-    marker: PropTypes.Object
+    editorWrapper: PropTypes.object,
+    marker: PropTypes.object
   };
 
   componentDidMount() {
